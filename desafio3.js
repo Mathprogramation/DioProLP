@@ -64,11 +64,11 @@ class Personagem{
         
 }
 
-let tipos = ["mago" , "guerreiro" , "ninja", "monge"];
+    let tipos = ["mago" , "guerreiro" , "ninja", "monge"];
 
-        for(let i = 0; i < tipos.length; i++){
-            let p = new Personagem("Sukuna", 20 , tipos[i])
-            p.atacar();
-        }
+    for(let i = 0; i < tipos.length; i++){
+        let p = new Personagem("Sukuna", 20 , tipos[i])
+        p.atacar();
+    }
 
 
