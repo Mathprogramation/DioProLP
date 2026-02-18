@@ -63,7 +63,6 @@ class Personagem{
     }
         
 }
-
     let tipos = ["mago" , "guerreiro" , "ninja", "monge"];
 
     for(let i = 0; i < tipos.length; i++){
